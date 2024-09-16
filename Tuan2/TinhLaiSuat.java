@@ -14,6 +14,7 @@ public class TinhLaiSuat {
         int soTienCuoiKy = soTienGoi + laiSuat;
         System.out.printf("So tien lai: %d VND\n", laiSuat);
         System.out.printf("So tien goc cuoi ky: %d VND", soTienCuoiKy);
+        System.out.printf("So tien goc cuoi ky: %d VND", soTienCuoiKy);
         sc.close();
     }
 }

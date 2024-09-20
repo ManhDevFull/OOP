@@ -22,6 +22,6 @@ public class bai2 {
         System.out.println("Chieu cao: " + height + " cm");
         System.out.println("Co thich lap trinh khong: " + like);
 
-        sc.close();
+        sc.close(); 
     }
 }

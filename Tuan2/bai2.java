@@ -4,19 +4,15 @@ public class bai2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        // Nhập tên
         System.out.print("Nhap ten cua ban: ");
-        String name = sc.nextLine();  // Đọc chuỗi nhập vào (tên)
+        String name = sc.nextLine();
         
-        // Nhập tuổi
         System.out.print("Nhap tuoi cua ban: ");
-        int age = sc.nextInt();  // Đọc số nguyên nhập vào (tuổi)
+        int age = sc.nextInt();
         
-        // Nhập chiều cao
         System.out.print("Nhap chieu cao cua ban (cm): ");
-        double height = sc.nextDouble();  // Đọc số thực nhập vào (chiều cao)
+        double height = sc.nextDouble();
         
-        // Nhập thông tin có thích lập trình hay không
         System.out.print("Ban co thich lap trinh khong (true/false): ");
         boolean like = sc.nextBoolean();
 
